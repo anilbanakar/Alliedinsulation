@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T21:46:45 IST" name="Suite" finished-at="2023-07-11T21:47:29 IST" duration-ms="44380">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T21:46:45 IST" name="Test Login Page Validation" finished-at="2023-07-11T21:47:13 IST" duration-ms="28272">
+      <class name="com.AlliedInsulation.testCases.LoginTestValidation">
+        <test-method is-config="true" signature="baseSetup()[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:46:45 IST" name="baseSetup" finished-at="2023-07-11T21:46:49 IST" duration-ms="4440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method is-config="true" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:46:50 IST" name="startTestCase" finished-at="2023-07-11T21:46:50 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.AlliedInsulation.testCases.LoginTestValidation.loginPageValidation(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method signature="loginPageValidation(java.lang.String,java.lang.String)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:46:50 IST" name="loginPageValidation" data-provider="getLoginSheetData" finished-at="2023-07-11T21:47:05 IST" duration-ms="14691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Depigaa.sekar@concertidc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ccare@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageValidation -->
+        <test-method is-config="true" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:05 IST" name="startTestCase" finished-at="2023-07-11T21:47:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.AlliedInsulation.testCases.LoginTestValidation.loginValidationTestWithInvalid(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method signature="loginValidationTestWithInvalid(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:05 IST" name="loginValidationTestWithInvalid" data-provider="getLoginValidationsSheetData" finished-at="2023-07-11T21:47:07 IST" duration-ms="1687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter valid credentials.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidationTestWithInvalid -->
+        <test-method signature="loginValidationTestWithInvalid(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:07 IST" name="loginValidationTestWithInvalid" data-provider="getLoginValidationsSheetData" finished-at="2023-07-11T21:47:09 IST" duration-ms="2732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdXyx@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email or password is incorrect.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidationTestWithInvalid -->
+        <test-method is-config="true" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:07 IST" name="startTestCase" finished-at="2023-07-11T21:47:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.AlliedInsulation.testCases.LoginTestValidation.loginValidationTestWithInvalid(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:09 IST" name="startTestCase" finished-at="2023-07-11T21:47:09 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.AlliedInsulation.testCases.LoginTestValidation.loginValidationTestWithInvalid(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method signature="loginValidationTestWithInvalid(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:09 IST" name="loginValidationTestWithInvalid" data-provider="getLoginValidationsSheetData" finished-at="2023-07-11T21:47:11 IST" duration-ms="2055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdef@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email or password is incorrect.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidationTestWithInvalid -->
+        <test-method is-config="true" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:11 IST" name="startTestCase" finished-at="2023-07-11T21:47:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.AlliedInsulation.testCases.LoginTestValidation.loginValidationTestWithInvalid(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method signature="loginValidationTestWithInvalid(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:11 IST" name="loginValidationTestWithInvalid" data-provider="getLoginValidationsSheetData" finished-at="2023-07-11T21:47:13 IST" duration-ms="1364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefgmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email or password is incorrect.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidationTestWithInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AlliedInsulation.testCases.LoginTestValidation@4681c175]" started-at="2023-07-11T21:47:13 IST" name="tearDown" finished-at="2023-07-11T21:47:13 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.AlliedInsulation.testCases.LoginTestValidation -->
+    </test> <!-- Test Login Page Validation -->
+    <test started-at="2023-07-11T21:47:13 IST" name="Test Dashboard Page Validation" finished-at="2023-07-11T21:47:29 IST" duration-ms="16089">
+      <class name="com.AlliedInsulation.testCases.DashboardTestValidation">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:com.AlliedInsulation.testCases.DashboardTestValidation@66982506]" started-at="2023-07-11T21:46:44 IST" name="reportSetup" finished-at="2023-07-11T21:46:45 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="baseSetup()[pri:0, instance:com.AlliedInsulation.testCases.DashboardTestValidation@66982506]" started-at="2023-07-11T21:47:13 IST" name="baseSetup" finished-at="2023-07-11T21:47:14 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method is-config="true" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:com.AlliedInsulation.testCases.DashboardTestValidation@66982506]" started-at="2023-07-11T21:47:14 IST" name="startTestCase" finished-at="2023-07-11T21:47:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.AlliedInsulation.testCases.DashboardTestValidation.checkDashboardPage(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method signature="checkDashboardPage(java.lang.String,java.lang.String)[pri:0, instance:com.AlliedInsulation.testCases.DashboardTestValidation@66982506]" started-at="2023-07-11T21:47:14 IST" name="checkDashboardPage" data-provider="getExcelData" finished-at="2023-07-11T21:47:29 IST" duration-ms="14403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Depigaa.sekar@concertidc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ccare@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AlliedInsulation.testCases.DashboardTestValidation@66982506]" started-at="2023-07-11T21:47:29 IST" name="tearDown" finished-at="2023-07-11T21:47:29 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.AlliedInsulation.testCases.DashboardTestValidation@66982506]" started-at="2023-07-11T21:47:29 IST" name="endTest" finished-at="2023-07-11T21:47:30 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.AlliedInsulation.testCases.DashboardTestValidation -->
+    </test> <!-- Test Dashboard Page Validation -->
+  </suite> <!-- Suite -->
+</testng-results>
